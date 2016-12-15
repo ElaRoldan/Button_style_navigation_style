@@ -1,0 +1,85 @@
+.container {
+  margin: 0 auto;
+  width: 720px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+    margin: 10px;
+    height: 41px;
+    border-radius: 10px;
+    background-color: #BEBEBE; 
+    opacity: 0.8;
+    /* comandos que generan el gradiente se generan de http://www.cssmatic.com/es/gradient-generator#'\-moz\-linear\-gradient\ */
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 24%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(24%, rgba(216,225,231,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+    background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 24%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 24%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 24%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    /*comando para las sombras */
+    /*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+  }
+
+li {
+    float: left;
+    display: inline;
+    margin: 1px;
+    padding-left: 15px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:nth-child(1) {
+  border-right: solid 3px white; 
+  padding-right:10px;
+  padding-left: 0px;
+}
+
+li:nth-child(2) {
+  border-right: solid 3px white; 
+  padding-right:10px;
+  padding-left: 10px;
+}
+
+li:nth-child(3) {
+  border-right: solid 3px white; 
+  padding-right:10px;
+  padding-left: 10px;
+}
+
+li:nth-child(4) {
+  border-right: solid 3px white; 
+  padding-right:10px;
+  padding-left: 10px;
+}
+
+li:nth-child(4) {
+  padding-right:40px;
+  padding-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+
+
